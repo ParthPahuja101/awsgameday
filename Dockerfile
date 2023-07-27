@@ -20,3 +20,5 @@ RUN npm install
 EXPOSE 8088
 
 CMD ["node", "/usr/src/app/app.js"]
+
+RUN chmod +x ./bin/rampage
